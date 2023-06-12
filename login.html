@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title> FOKONTANY | Page d'authentification </title>
+</head>
+<body>
+    <div  class="page">
+        <div class="photo">
+            <span class="titre">F O K O N T A N Y</span>
+            <div class="img"><img src="./assets/images/logo.jfif" alt="" width="220Ppx" height="220px"></div>
+        </div>
+        <div class="connexion">
+        <h1>CONNEXION</h1>
+            <form action="" class="form">
+                <div class="information">
+                    <div class="groupe-1">
+                        <div class="form-group">
+                            <label for="nom">PSEUDO :</label>
+                            <input type="text" placeholder="Veuillez saisir votre nom..." name="nom" id="nom" class="nom">
+                        </div>
+                       <div class="groupe-2">
+                        <div class="form-group mdp">
+                            <label for="mdp">MOT DE PASSE :</label>
+                            <input type="password" placeholder="Veuillez saisir votre prénom..." name="mdp" id="mdp" class="mdp">
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="page-bas">
+            <!-- vidéo -->
+                <div class="form-group publicite-video">
+                    <video id="video" controls>
+                        <source src="./assets/videos/Madagascar - comment le complot a été déjoué • RFI.mp4" type="video/mp4">
+                         Vidéo en cours...
+                    </video>
+                </div>
+            <!-- audio -->
+                <div class="form-group publicite-audio">
+                    <div class="audio">
+                        <span class="version-audio">Ecoutez la version Audio :</span>
+                        <audio id="audio" controls>
+                            <source src="./assets/audio/Madagascar - comment le complot a été déjoué • RFI.mp3" type="audio/mp3">
+                               Audio en cours...
+                       </audio>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit">
+                    <a href="#" ><span class="bouton">Se connecter</span></a>
+                </button>
+                <p class="dernier-texte"> Retourner à la page précédente ? <a href="./index.html"><span class="lien">Cliquez ici</span></a></p> 
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

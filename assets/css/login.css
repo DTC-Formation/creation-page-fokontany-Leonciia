@@ -1,0 +1,129 @@
+body
+{
+    background-color: #9bc488; 
+    margin: 0 auto;
+    padding: 0;
+}
+.titre
+{    
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;  
+    border: #b6c027 2px solid;
+    padding: 20px; 
+}
+.img
+{
+    margin: 35px;
+}
+h1
+{     
+    color: #b6c027;
+    text-align: center;
+    font-size: 35px;
+}
+.page
+{
+    display: flex;
+    margin: 30px 60px 10px 60px; 
+}
+.photo
+{
+    background-color: #fff;
+    width: 50%;
+    text-align: center;
+    object-fit: cover;
+    padding-top: 100px;
+}
+.connexion 
+{
+    background-color:#3e885b ; 
+    padding-right: 25px;
+    width: 100%;      
+}
+.groupe-1
+{
+    display: flex;
+}
+.form-group 
+{
+    padding: 15px 0 0 30px;
+}
+input[type="text"]
+{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="password"]
+{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label 
+{
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #d4e4d8;
+}
+button
+{
+    padding: 15px 50px 15px 50px;
+    border:#b6c027;
+    background-color:#b6c027;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+}
+.bouton
+{
+    color:#ccc;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.lien
+{
+     color: #b6c027;
+}
+.mdp
+{
+        margin-bottom: 5px;
+}
+.page-bas
+{
+    text-align: center;
+    display: flex;
+}
+#video
+{
+    width: 320px;
+    height: 320px;
+}
+.version-audio
+{
+    font-size: 18px;
+    font-weight: bolder;
+    color:red;
+}
+.publicite-audio
+{
+    margin: auto;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.dernier-texte
+{
+    font-size: 15px;
+    font-style: italic;
+}
